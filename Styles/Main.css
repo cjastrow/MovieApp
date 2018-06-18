@@ -1,0 +1,124 @@
+body {
+	margin: 0px;
+	font-family: arial;
+	background-image: url(../Images/Curtains.jpg);
+	background-size: 1500px auto;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#contain {
+	background-color: black;
+	width: 800px;
+	height: 100vh;
+	position: fixed;
+	left: 50%;
+	margin-left: -400px;
+}
+
+h1 {
+	font-family: arial black;
+	color: white;
+	margin-left: 10px;
+	user-select: none;
+}
+
+#searchBtn {
+	margin-top: 10px;
+	width: 100px;
+	height: 20px;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	font-family: arial black;
+	margin-left: 10px;
+	user-select: none;
+}
+
+#searchBox {
+	margin-left: 10px;
+}
+
+#searchBtn:hover {
+	cursor: pointer;
+	background-color: white;
+	color: blue;
+	margin-left: 10px;
+}
+
+#results {
+	width: 780px;
+	height: 300px;
+	position: absolute;
+	left: 10px;
+}
+
+#moviePicture {
+	width: 300px;
+	border: 2px solid white;
+}
+
+#movieTitle {
+	position: absolute;
+	left: 310px;
+	display: inline-block;
+	color: white;
+	font-family: arial black;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#movieYear {
+	position: absolute;
+	top: 30px;
+	left: 310px;
+	display: inline-block;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+}
+
+#movieDirector {
+	position: absolute;
+	top: 60px;
+	left: 310px;
+	display: inline-block;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	font-style: italic;
+}
+
+#moviePlot {
+	position: absolute;
+	top: 90px;
+	left: 310px;
+	display: inline-block;
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+}
+
+#movieRatings {
+	position: absolute;
+	top: 160px;
+	left: 310px;
+	display: inline-block;
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+}
